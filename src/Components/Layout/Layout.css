@@ -1,0 +1,15 @@
+
+.background{
+    height: 100vh;
+    width: 100vw;
+    padding: 30px;
+    background: linear-gradient(to bottom, #919fa7, #e7e9e8);
+    
+}
+
+.main-container{
+    padding: 30px;
+    background-color: #ffff;
+    max-width: 1220px !important;
+    
+}
