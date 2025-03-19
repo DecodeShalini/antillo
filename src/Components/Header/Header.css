@@ -1,0 +1,52 @@
+
+
+.Header{
+   
+    margin: 0px 30px;
+    min-height: 184px;
+
+   
+}
+.navbar{
+   
+    background: #3A454B;
+ 
+    box-shadow: 0 5px 2px -3px rgba(0, 0, 0, 0.3);
+}
+
+.navItems{
+
+padding: 10px 20px;
+
+}
+
+.navItems:hover{
+    background-color: #33bee5;
+}
+
+.headerNav{
+    padding: 0 !important;
+}
+
+/* .navItems{
+    border-right: 2px solid #33bee5;
+} */
+.navbar-nav .nav-item {
+    position: relative; /* Required for absolute positioning of ::after */
+  }
+  
+  .navbar-nav .nav-item::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 22px;
+    width: 1px;
+    height: 25px;
+    background: rgba(255, 255, 255, .15); /* Border color */
+  }
+  
+  /* Remove border for the last item */
+  /* .navbar-nav .nav-item:last-child::after {
+    display: none;
+  } */
+  
